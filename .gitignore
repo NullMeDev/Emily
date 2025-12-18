@@ -1,0 +1,61 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo lock file (for libraries, uncomment if this is an application)
+# Cargo.lock
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Test artifacts
+*.profraw
+*.profdata
+
+# Backup files
+*.bak
+*.tmp
+
+# Sensitive data
+config.toml
+secrets.toml
+*.key
+*.pem
+
+# Telegram bot token
+bot_token.txt
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache (if any Python scripts remain)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node modules (if any JS tooling)
+node_modules/
+
+# Build directories
+dist/
+build/
